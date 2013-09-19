@@ -1,0 +1,174 @@
+/*@import url(http://hugoroy.eu/css/bootstrap.min.css);*/
+
+body {
+    font-family: "Roboto";
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+a {text-decoration: none; }
+#content a {text-decoration: underline;}
+
+#toplinks, #translations {
+    font-size: 80%;
+    font-weight: 200;
+    color: #666;
+}
+
+.netscape4 {
+    display: none !important;
+    height: 0;
+}
+
+#translations .original {
+    font-weight: 500;
+}
+
+@media (min-width:700px) {
+    #toplinks {
+        float: left;
+        margin: 0 1em 2.4em 1em;
+    }
+}
+
+#null-wrapper {
+    background: rgba(0,203, 240, 1);
+}
+
+#header, #navigation, #content, #fsf-links, #mission-statement, #footer {
+    padding: 1em;
+}
+
+@media (min-width: 700px) {
+    #header, #navigation, #content, #fsf-links, #mission-statement, #footer {
+        padding: 1em 2em;
+    }
+}
+
+#header {
+    background: url(cloudleft.png) no-repeat bottom left;
+    min-height:110px;
+}
+
+#logo { 
+    font-size: 1em; 
+    margin-bottom:2em;
+}
+
+#logo a {
+    font-weight: 200;
+    font-size: 2.5em;
+}
+
+#fssbox {
+    font-size: 80%;
+}
+
+#fssbox p, #fssbox h4 {
+    margin:0.1em 0;
+    text-align:center;
+}
+
+@media (min-width: 800px) {
+    #logo {
+        float: left;
+        width: 66%;
+        font-size: 1.2em;
+        line-height: 4.7em;
+    }
+    #fssbox {
+        float:right;
+        width: 30%;
+    }
+}
+
+#navigation {
+    background: rgba(255,255,255,0.8);
+    margin: 0;
+    padding: 0.5em 1em;
+}
+
+#searcher {
+    clear: both;
+}
+
+#searcher form input {
+    font-size: 90%;
+}
+
+#navigation ul {
+    list-style-type: none;
+    margin: 1em 0 0 0;
+    padding: 0;
+}
+
+#navigation ul li {
+    margin: 0;
+    padding: 8px 10px;
+    display: block;
+    vertical-align: top;
+}
+
+@media (min-width: 450px) {
+    #navigation ul {
+        margin-top: 0;
+    }
+    #navigation ul li {
+        display: inline-block;
+    }
+    #searcher {
+        float: right;
+        width: 30%;
+        text-align: center;
+    }
+}
+
+#content {
+    background: #FFF;
+}
+
+#content * {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 700px) {
+    #content {
+        padding: 2em;
+        font-size: 1.2em;
+    }
+    
+    #content * {
+        max-width:800px;
+    }
+}
+
+#fsf-links {
+    margin: 1em;
+    border: 1px solid rgb(204, 204, 204);
+    background: #FFF
+}
+
+#fsf-links ul {
+    text-align: center;
+    font-size: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+#fsf-links ul li {
+    list-style: none outside none;
+    padding: 0.3em 0.7em;
+    display: inline-block;
+}
+
+#mission-statement {
+    font-size: 1.15em;
+}
+
+#footer {
+    background: #FFF;
+    border-top: 3px solid #333;
+}
