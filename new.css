@@ -73,13 +73,13 @@ a {text-decoration: none; }
 @media (min-width: 800px) {
     #logo {
         float: left;
-        width: 66%;
+        min-width: 66%;
         font-size: 1.2em;
         line-height: 4.7em;
     }
     #fssbox {
         float:right;
-        width: 30%;
+        max-width: 30%;
     }
 }
 
