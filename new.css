@@ -191,7 +191,7 @@ a {text-decoration: none; }
     border-top: 3px solid #333;
 }
 
-
+@media (min-width: 400px) {
 .yui-g .yui-u {
     float: right;
     width: 49.1%;
@@ -206,6 +206,7 @@ a {text-decoration: none; }
 .yui-gc div.first {
     width: 66%;
     float:left;
+}
 }
 .highlight-para {
     background-color: rgb(255, 255, 102);
