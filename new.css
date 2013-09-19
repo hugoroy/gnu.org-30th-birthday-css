@@ -59,7 +59,7 @@ a {text-decoration: none; }
     margin-bottom:2em;
     height: 90px;
     width: 404px;
-    background: url(topbanner.png);
+    background: url(topbanner.png) center no-repeat;
 }
 
 #logo a {
@@ -80,13 +80,13 @@ a {text-decoration: none; }
 @media (min-width: 800px) {
     #logo {
         float: left;
-        min-width: 66%;
+        max-width: 66%;
         font-size: 1.2em;
         line-height: 4.7em;
     }
     #fssbox {
         float:right;
-        max-width: 30%;
+        max-width: 32%;
     }
 }
 
@@ -120,6 +120,7 @@ a {text-decoration: none; }
 @media (min-width: 450px) {
     #navigation ul {
         margin-top: 0;
+        text-align: center;
     }
     #navigation ul li {
         display: inline-block;
