@@ -59,7 +59,7 @@ a {text-decoration: none; }
     margin-bottom:2em;
     height: 90px;
     width: 404px;
-    background: url(topbanner.png) center no-repeat;
+    background: url(topbanner.png) top center no-repeat transparent;
 }
 
 #logo a {
@@ -120,7 +120,6 @@ a {text-decoration: none; }
 @media (min-width: 450px) {
     #navigation ul {
         margin-top: 0;
-        text-align: center;
     }
     #navigation ul li {
         display: inline-block;
