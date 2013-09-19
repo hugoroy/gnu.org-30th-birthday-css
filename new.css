@@ -57,11 +57,15 @@ a {text-decoration: none; }
 #logo { 
     font-size: 1em; 
     margin-bottom:2em;
+    height: 90px;
+    width: 404px;
+    background: url(topbanner.png);
 }
 
 #logo a {
     font-weight: 200;
     font-size: 2.5em;
+    color: transparent;
 }
 
 #fssbox {
