@@ -58,8 +58,8 @@ a {text-decoration: none; }
     font-size: 1em; 
     margin-bottom:2em;
     height: 90px;
-    width: 404px;
-    background: url(topbanner.png) top center no-repeat transparent;
+    min-width: 404px;
+    background: url(topbanner.png) 50% 50% no-repeat transparent;
 }
 
 #logo a {
@@ -80,7 +80,7 @@ a {text-decoration: none; }
 @media (min-width: 800px) {
     #logo {
         float: left;
-        max-width: 66%;
+        width: 66%;
         font-size: 1.2em;
         line-height: 4.7em;
     }
