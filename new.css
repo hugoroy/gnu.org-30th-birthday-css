@@ -5,6 +5,7 @@ body {
     font-size: 14px;
     margin: 0;
     padding: 0;
+    color: #333;
 }
 
 a {text-decoration: none; }
@@ -120,12 +121,18 @@ a {text-decoration: none; }
     padding: 0;
 }
 
-#navigation ul li {
+#navigation ul a {
     margin: 0;
     padding: 8px 10px;
     display: block;
-    vertical-align: top;
+    color: #333;
+    font-weight: 500;
 }
+
+#navigation ul a:hover {
+    background: rgba(0,203, 240, 1);
+}
+
 
 @media (min-width: 450px) {
     #navigation ul {
