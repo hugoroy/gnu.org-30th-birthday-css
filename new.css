@@ -190,3 +190,54 @@ a {text-decoration: none; }
     background: #FFF;
     border-top: 3px solid #333;
 }
+
+
+.yui-g .yui-u {
+    float: right;
+    width: 49.1%;
+}
+.yui-g .yui-u.first {
+    float:left;
+}
+.yui-gc .yui-u {
+    width: 32%;
+    float: right;
+}
+.yui-gc div.first {
+    width: 66%;
+    float:left;
+}
+.highlight-para {
+    background-color: rgb(255, 255, 102);
+    clear: both;
+    padding: 1em;
+}
+.emph-box {
+    background-color: rgb(236, 236, 236);
+    border: 1px solid rgb(204, 204, 204);
+    padding: 12px;
+}
+.large {
+    font-size: 36px;
+    background-color: rgb(170, 203, 80);
+}
+.button {
+    border-width: 3px;
+    border-style: solid;
+    border-right: 3px solid rgb(153, 153, 153);
+    border-color: rgb(204, 204, 204) rgb(153, 153, 153) rgb(153, 153, 153) rgb(204, 204, 204);
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.button a {
+    color: #FFF;
+    text-decoration: none;
+}
+.c {
+    text-align: center;
+}
